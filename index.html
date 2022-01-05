@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type"
+		content="text/html; charset=UTF-8" />
+
+	<style>
+
+		/* Styling background */
+		body {
+			margin: 0;
+			padding: 0;
+			background: rgb(0, 0, 0);
+		}
+
+		/* Styling heading */
+		h1 {
+			font-size: 35px;
+			color: rgb(168, 233, 245);
+			text-align: center;
+		}
+
+		/* Styling container class */
+		.container {
+			text-align: center;
+			margin-top: 150px;
+		}
+
+		/* Styling btn class */
+		.btn {
+			background: none;
+			border: 1px solid rgb(37, 195, 223);
+			font-size: 23px;
+			padding: 10px 20px;
+			font-family: "montserrat";
+			cursor: pointer;
+			margin: 10px;
+			transition: 0.8s;
+			position: relative;
+			overflow: hidden;
+		}
+
+		/* Styling btn1, btn2 class */
+		.btn1,
+		.btn2 {
+			color: rgb(0, 119, 128);
+		}
+
+		/* Creating animation effect */
+		.btn1:hover,
+		.btn2:hover {
+			color: #fff;
+		}
+		
+		.btn::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			width: 100%;
+			height: 0%;
+			background: rgb(20, 204, 228);
+			z-index: -1;
+			transition: 0.8s;
+		}
+		
+		.btn1::before {
+			top: 0;
+			border-radius: 0 0 50% 50%;
+		}
+		
+		.btn2::before {
+			bottom: 0;
+			border-radius: 50% 50% 0 0;
+		}
+		
+		.btn1:hover::before,
+		.btn2:hover::before {
+			height: 180%;
+		}
+		.ad {
+			text-align: center;
+			margin-top: 150px;
+			
+		}
+		.edit {
+			text-align: center;
+			margin-top: 150px;
+			
+		}
+		/* completion of animation effect code */
+	</style>
+</head>
+
+<body>
+
+	
+	<h1> Audio Video Assignment</h1>
+
+	<div class="container">
+		<h1>Script </h1>
+		<a href="script.pdf"><button class="btn btn1">PDF HERE</button></a><br>	
+	</div>
+	<div class="ad">
+		<h1>Audio Before Edit </h1>
+		<audio  src="/Audios/unedited1.mp3"controls> </audio><br>
+        <audio  src="/Audios/unedited2.mp3"controls> </audio><br>
+        <audio  src="/Audios/unedited3.mp3"controls> </audio><br>
+        <audio  src="/Audios/unedited4.mp3"controls> </audio><br>
+        <audio  src="/Audios/background music.mp3"controls> </audio>
+	</div>
+	<div class="edit">
+		<h1>Audio After Edit </h1>
+		<audio  src="/Audios/edited audio.mp3"controls> </audio>
+	</div><div class="edit">
+		<h1>የጅብራአልተሩ አለት ክቡር አቶ ይድነቃቸው ተሰማ እሸቴ</h1>
+        
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/JUQpQMyFsHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<div class="name">
+		<pre>
+			<H1>   Group Name              ID         Section </H1> <br>
+			<h1> 1.Haftom Tsegaye      A/ur15024/10      5</H1><br>
+			<H1> 2.Samuel Embibel      A/ur15030/10      5 </H1><br> 
+			<H1> 3.Yohannes Mulugeta   A/ur15035/10      5</H1> 
+		  </pre>
+	  
+	</div>
+
+	
+</body>
+
+</html>
